@@ -18,7 +18,7 @@ body {
 .container {
     margin-top: 20px;
     width: 900px;
-    background: #f0e9dc5d;
+    background: #f0e9dccd;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -46,7 +46,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     margin-bottom: 20px;
 }
 
@@ -107,29 +107,4 @@ body {
 
 .campo-full {
     grid-column: span 2;
-}
-
-.logobebe{
-    background-color: rgba(164, 211, 222, 0.678);
-    width: 70px;
-    height: auto;
-    display: flex;
-    border-radius: 50px;
-    margin-left: auto;
-    justify-content: center;
-    align-items: center;
-
-}
-.logobebe button{
-    background-color: #a4d3de81;
-    width: 70px;
-    height: auto;
-    display: flex;
-    border-radius: 50px;
-
-}
-.logobebe img {
-    width: auto;
-    height: auto;
-    cursor: pointer;
 }
