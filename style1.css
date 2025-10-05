@@ -16,6 +16,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
     width: 900px;
     background: #f0e9dccd;
@@ -52,6 +54,10 @@ body {
 
 .header h2 {
     font-size: 18px;
+    margin-left: 20px; 
+}
+.header img{
+    cursor: pointer;
 }
 
 .perfil {
@@ -107,4 +113,17 @@ body {
 
 .campo-full {
     grid-column: span 2;
+}
+.bore{
+
+    margin: 20px auto;
+    width: 180px;
+    padding: 15px;
+    font-size: 16px;
+    background: #708EF1;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 75px;
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <title>o</title>
+    <title>ob</title>
 </head>
 <header>
     <nav class="menu">
@@ -22,7 +22,7 @@
     <div class="container">
 
         <div class="header">
-            <img src="/bebe.png" alt="">
+            <img src="./back.png" onclick="window.location.href='/index.html'" width="20px", height="auto", alt="">
             <h2> Perfil do Bebê</h2>
         </div>
 
@@ -36,27 +36,27 @@
         <div class="campos">
             <div class="campo campo-full">
                 <label>Nome completo</label>
-                <input type="text" value="ROBERTO" readonly>
+                <input type="text" placeholder="ROBERTO" required>
             </div>
 
             <div class="campo campo-full">
                 <label>Data de Nascimento</label>
-                <input type="text" value="01/04/1998" readonly>
+                <input type="date" placeholder="01/04/1998" required>
             </div>
 
             <div class="campo">
                 <label>CPF(opcional)</label>
-                <input type="text" value="432.065.774-01" >
+                <input type="text" placeholder="432.065.774-01" >
             </div>
 
             <div class="campo">
                 <label>Sexo</label>
-                <input type="text" placeholder="Masculino" readonly>
+                <input type="text" placeholder="Masculino" required>
             </div>
 
             <div class="campo campo-full">
                 <label>Nacionalidade</label>
-                <input type="text" placeholder="Brasileiro" readonly>
+                <input type="text" placeholder="Brasileiro" required>
             </div>
             <div class="campo">
                 <label>Peso</label>
@@ -65,22 +65,23 @@
 
             <div class="campo">
                 <label>Altura</label>
-                <input type="text" placeholder="50cm" readonly>
+                <input type="text" placeholder="50cm" required>
             </div>
 
             <div class="campo campo-full">
                 <label>Cartão SUS/Convênio</label>
-                <input type="text" value="3704 5563 7184 423" readonly>
+                <input type="text" placeholder="3704 5563 7184 423" required>
             </div>
             <div class="campo campo-full">
                 <label>Tipo Sanguineo</label>
-                <input type="text" placeholder="Tipo: A" readonly>
+                <input type="text" placeholder="Tipo: A" required>
             </div>
             <div class="campo campo-full">
                 <label>Certidao de Nascimento (Numero)</label>
-                <input type="text" placeholder="43637-935-09" readonly>
+                <input type="text" placeholder="43637-935-09" required>
             </div>
         </div>
+        <button class="bore" type="submit"> Salvar</button>
     </div>
 </body>
 
